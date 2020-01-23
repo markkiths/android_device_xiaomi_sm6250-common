@@ -225,9 +225,13 @@ persist.vendor.sensors.allow_non_default_discovery=true
 # SSR
 persist.vendor.ssr.restart_level=ALL_ENABLE
 
+# USB
+vendor.usb.diag.func.name=diag
+
 # WFD
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
 
 # Wi-Fi
 wifi.aware.interface=wifi-aware0
+
