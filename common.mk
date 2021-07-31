@@ -441,9 +441,3 @@ PRODUCT_COPY_FILES += \
 # WiFi Display
 PRODUCT_PACKAGES += \
     libnl
-
-# XiaomiParts
-PRODUCT_PACKAGES += \
-    XiaomiParts \
-    init.xiaomiparts.rc \
-    init.xiaomiparts.sh
