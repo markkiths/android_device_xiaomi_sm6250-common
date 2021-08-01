@@ -4,6 +4,9 @@ audio.sys.offload.pstimeout.secs        u:object_r:vendor_audio_prop:s0
 audio_hal.in_period_size                u:object_r:vendor_audio_prop:s0
 audio_hal.period_multiplier             u:object_r:vendor_audio_prop:s0
 persist.audio.fluence.voicecomm         u:object_r:vendor_audio_prop:s0
+tas.smartpa.debug.disable               u:object_r:vendor_audio_prop:s0
+tas.smartpa.debug.txformat24            u:object_r:vendor_audio_prop:s0
+tas.smartpa.debug.txdevice              u:object_r:vendor_audio_prop:s0
 
 # Camera
 cameradaemon.SaveMemAtBoot              u:object_r:vendor_camera_prop:s0
