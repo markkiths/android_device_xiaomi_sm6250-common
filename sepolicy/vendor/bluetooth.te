@@ -1,1 +1,2 @@
-allow bluetooth incremental_prop:file { getattr open read };
+allow bluetooth incremental_prop:file { getattr open read map };
+allow bluetooth proc_filesystems:file r_file_perms;
