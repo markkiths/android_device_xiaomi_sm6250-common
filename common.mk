@@ -16,9 +16,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
-# MiuiCamera
-$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
-
 # AID/fs configs
 PRODUCT_PACKAGES += \
     fs_config_files
@@ -179,8 +176,9 @@ PRODUCT_COPY_FILES += \
 
 # Health
 PRODUCT_PACKAGES += \
-    android.hardware.health@2.1-impl-qti \
-    android.hardware.health@2.1-service
+    android.hardware.health@2.0 \
+    android.hardware.health@2.0-service \
+    android.hardware.health@2.0-impl.recovery
 
 # HIDL
 PRODUCT_PACKAGES += \
