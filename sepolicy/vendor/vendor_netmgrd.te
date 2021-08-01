@@ -1,0 +1,2 @@
+allow vendor_netmgrd sysfs:file { read open };
+allow vendor_netmgrd vendor_diag_device:chr_file { ioctl read write getattr open };
