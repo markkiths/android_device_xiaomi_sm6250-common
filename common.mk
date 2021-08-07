@@ -23,6 +23,10 @@ PRODUCT_PACKAGES += \
 # Apex
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+PRODUCT_PACKAGES += \
+    ModuleMetadataGoogle \
+    ModuleMetadataGoogleOverlay
+
 # API
 PRODUCT_SHIPPING_API_LEVEL := 29
 
