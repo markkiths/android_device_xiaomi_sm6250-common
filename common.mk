@@ -139,10 +139,6 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.3-service.clearkey
 
-# Doze
-PRODUCT_PACKAGES += \
-    XiaomiDoze
-
 # External exFat tools
 PRODUCT_PACKAGES += \
     mkfs.exfat \
