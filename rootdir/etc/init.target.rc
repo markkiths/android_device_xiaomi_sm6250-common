@@ -186,8 +186,5 @@ chmod 0666 /sys/class/power_supply/battery/input_suspend
 chown system graphics /sys/class/drm/sde-crtc-0/measured_fps
 chmod 0666 /sys/class/drm/sde-crtc-0/measured_fps
 
-on post-fs && property:ro.boot.hwname=curtana
-    mount none /vendor/lib64/liboemcrypto-curtana.so /vendor/lib64/liboemcrypto.so bind
-
-on post-fs && property:ro.boot.hwname=joyeuse
+on post-fs
     mount none /vendor/lib64/liboemcrypto-curtana.so /vendor/lib64/liboemcrypto.so bind
